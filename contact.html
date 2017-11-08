@@ -1,93 +1,66 @@
-<!DOCTYPE html>
-  <html lang="en">
-    
-        <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="./style.css">
-        <title> Nathan L Worford </title>
-      </head>
+<!doctype html>
+<html lang="en-us">
 
-       <body>
-         <section class="background-section">
-        <!-- <img id="background" src="./assets/images/spiration dark.png"> -->
-        <div class="content-area">
-          <div class="header">
-            
-              <div class="floatLeft yourName"> 
-                <div id="NLW"> Nathan L. Worford
-                </div>
-              </div>
-              
-              <div class="nav floatRight">
-                    <a class="nav-icons" href="./index.html"> <span>About </span> </a> 
-                    <span class="pipe">|</span>
-                    <a class="nav-icons" href="./contact.html"> Contact </a> 
-                    <span class="pipe">|</span>
-                    <a class="nav-icons" href="./portfolio.html"> Portfolio</a> 
-                  </div> <!-- class="nav"-->
-            </div>
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Nathan L. Worford</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
 
-          </div> <!-- class="header"-->
-<div class="mainSection">
+<body>
 
-            <h1 id="contact"> Contact </h1>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Nate W.</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="portfolio.html">Portfolio</a>
+      </nav>
+    </div>
+  </header>
 
-              <hr id="hr1">
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
 
-                <div class="contactSection">
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
-                  <form  action="contact">
-                        
-                        <div id="name">
-                            Name 
-                            <input type="text" name="name" size="85" maxlength="85" value="">
-                        </div>
-                        <br>
+    </section>
 
-                        <div id="email">
-                            Email 
-                            <input type="text" name="email" size="85" maxlength="85" value="">
-                            </div>
-                        <br>
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
 
-                        <div id="message">
-                            Message 
-                            <textarea name="message" cols="70" rows="14"></textarea>
-                        </div>
-                        
-                        
-                        <div>
-                        <input id="submit" type="submit" value="Submit">
-                        </div>
+        <a href="https://github.com/nworford" target="_blank"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+        <a href="https://www.linkedin.com/in/nathan-worford-bb1a55a5/" target="_blank"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+        <a href="https://stackoverflow.com/users/8267633/nathan-w"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
+  </div>
 
-                  </form>
+  <footer>
+    <div class="container">
+      Copyright &copy; 2017 Nathan L. Worford
+    </div>
+  </footer>
+</body>
 
-                </div> <!-- class="contactSection" -->
-          
-          </div> <!-- class="mainSection" -->
-
-          <div class="connectWithMe">
-            <h3> Connect with me </h3>
-
-              <br><br><br><br>
-
-              <hr id="hr2">
-
-              <a  href="https://github.com/nworford" target="_blank"> <img id="GitHub" src="./assets/images/github_square_black-128.png" alt="GitHub"> </a>
-              <a href="https://www.linkedin.com/in/nathan-worford-bb1a55a5/" target="_blank"> <img id="Linkdin" src="./assets/images/LinkdIN-128.png" alt="Linkedin"> </a>
-              <a href="https://stackoverflow.com/users/8267633/nathan-w" target="_blank"> <img id="StackOverflow" src="./assets/images/overflow-128.png " alt="StackOverflow"> </a>
-
-          </div>  <!-- class="connectWithMe"-->
-
-       
-
-        <div class="footer">
-          <hr id="hr3">
-          <footer > &copy; Copyright 2017 Nathan L. Worford </footer>
-        </div> <!-- class="footer"-->
-                    
-      </section>
-    </body>
-
-
-  </html>
+</html>
