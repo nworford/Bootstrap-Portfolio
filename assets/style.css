@@ -8,6 +8,10 @@ body {
 }
 
 h2 {
+	/*text-align: center;*/
+}
+
+#connect {
 	text-align: center;
 }
 
@@ -36,5 +40,11 @@ nav {
 
 
 }
+
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+    margin-top:25px;
+    padding:20px;
 
 
